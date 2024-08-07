@@ -1,6 +1,6 @@
-# Flowy Cart - E-commerce
+# Micro Cart - E-commerce
 
-FlowyCart - An E-commerce site build using React, Redux, Redux-toolkit, React-router-dom and Typescript
+Microcart - An E-commerce site build using React, Redux, Redux-toolkit, React-router-dom and Typescript
 
 - [Demo](https://flowy-cart.vercel.app/)
 
@@ -34,11 +34,11 @@ FlowyCart - An E-commerce site build using React, Redux, Redux-toolkit, React-ro
 
 - [ ] Clone the Repository
 ```
-https://github.com/athulrajhere/FlowyCart-ecommerce-react-redux.git
+https://github.com/premkolte
 ```
 - [ ] Enter into the directory
 ```
-cd FlowyCart-ecommerce-react-redux
+cd MicroMart
 ```
 - [ ] Install all dependencies
 ```
