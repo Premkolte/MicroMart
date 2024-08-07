@@ -7,7 +7,7 @@ import Spinner from "../../components/components/Spinner";
 
 
 const handleClick = () => {
-  window.open('https://excalidraw.com/', '_blank', 'noopener,noreferrer');
+  window.open('https://excalidraw.com/', '_blank', 'noopener,noreferrer ');
 };
 const LoginPage = () => {
   const { user, token, isLoading } = useAppSelector((state) => state.auth);
@@ -16,6 +16,7 @@ const LoginPage = () => {
 
   useEffect(() => {
     if (user === null && token) {
+      
       const userId = localStorage.getItem("user");
       dispatch(getUser(Number(userId)));
     }
