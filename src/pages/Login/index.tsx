@@ -7,7 +7,7 @@ import Spinner from "../../components/components/Spinner";
 
 
 const handleClick = () => {
-  window.open('https://www.youtube.com', '_blank', 'noopener,noreferrer');
+  window.open('https://excalidraw.com/', '_blank', 'noopener,noreferrer');
 };
 const LoginPage = () => {
   const { user, token, isLoading } = useAppSelector((state) => state.auth);
