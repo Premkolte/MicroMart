@@ -7,6 +7,7 @@ import {
   FaFacebookF,
   FaYoutube,
 } from "react-icons/fa";
+import logo from '../../../../data/qr-code.png';
 
 import styles from "./index.module.scss";
 
@@ -31,6 +32,7 @@ const Footer = () => {
         <div className={styles.profile}>
           <div className={styles.nav_wrapper}>
             <div className={styles.nav_title}>Micro Mart</div>
+            <img src={logo} alt="Micro Mart Logo" style={{ height: "180px", width:"150px"}}/>
             <div className={styles.subTitle}>
               Unleash your fashion. Find your flow.
             </div>
