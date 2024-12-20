@@ -76,6 +76,7 @@ const LoginPage = () => {
                   {/* <strong>{user?.email}</strong> */}
                 </h2>
                 <h3>
+                  
 
                   Location: Pune, Maharashtra 
                   {/* <strong>{user?.address.city}</strong> */}
