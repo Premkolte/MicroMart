@@ -82,7 +82,7 @@ const ProductCard: FC<ProductCardProps> = ({
             <div className={styles.productTitle}>
               <div>{title}</div>
             </div>
-            <div className={styles.productPrice}>{price}₹</div>
+            <div className={styles.productPrice}>₹{price}</div>
           </div>
         </Link>
         <motion.div
