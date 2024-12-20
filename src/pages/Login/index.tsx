@@ -4,11 +4,25 @@ import { FormEvent, useEffect } from "react";
 import { getUser, login, logout } from "../../features/auth/authSlice";
 import { useAppDispatch, useAppSelector } from "../../app/hooks";
 import Spinner from "../../components/components/Spinner";
+import { CgDisplayFlex } from "react-icons/cg";
 
 
 const handleClick = () => {
   window.open('https://excalidraw.com/', '_blank', 'noopener,noreferrer ');
 };
+const ProRecc = () => {
+  window.open('https://recommendationapp-9xhvzouxewkvk4vcatztkx.streamlit.app/', '_blank', 'noopener,noreferrer ');
+};
+const salesforc  = () => {
+  window.open('https://sales-forecasting-app-trmqssbds3aukgrjdfvev9.streamlit.app/', '_blank', 'noopener,noreferrer ');
+};
+const fraud  = () => {
+  window.open('https://appfraudmldsn-ermuzqwjxv3nmx9bmg9etw.streamlit.app/', '_blank', 'noopener,noreferrer ');
+};
+const totalqun  = () => {
+  window.open('https://totalquantitysalesforecastingapp-tdmceoqciemnal9gvzlsvs.streamlit.app/', '_blank', 'noopener,noreferrer ');
+};
+
 const LoginPage = () => {
   const { user, token, isLoading } = useAppSelector((state) => state.auth);
   const navigate = useNavigate();
@@ -72,11 +86,40 @@ const LoginPage = () => {
                 </h3>
               </div>
               <br></br>
-              <button
-                  type="button"
-                  className={styles.butt}
-                  onClick={handleClick}
-                >View Analytics</button>
+
+              <div style={{display: "flex"}}>
+                <button 
+                    type="button"
+                    className={styles.butt}
+                    onClick={ProRecc}
+                  >Product Recommendation
+                </button>
+                <button style={{marginLeft: "5px"}}
+                    type="button"
+                    className={styles.butt}
+                    onClick={salesforc}
+                  >Sales Prediction
+                </button>
+              </div>
+
+              <br></br>
+
+              <div style={{display: "flex"}}>
+                <button
+                    type="button"
+                    className={styles.butt}
+                    onClick={fraud}
+                  >Fraud Detection
+                </button>
+                <span></span>
+                <button style={{marginLeft: "5px"}}
+                    type="button"
+                    className={styles.butt}
+                    onClick={totalqun}
+                  >Quantity Prediction
+                </button>
+              </div>
+
             </div>
             <button
               type="button"
