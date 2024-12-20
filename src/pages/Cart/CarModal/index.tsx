@@ -44,10 +44,10 @@ const CartModal: React.FC<CartModalProps> = ({ show, setShow }) => {
           <div className={styles.footer_wrapper}>
             <div className={styles.footer_total}>
               <p>
-                <span>Total</span>
+                <span>Totall</span>
               </p>
               <p>
-                <span>{totalPrice.toFixed(2)}</span>
+                <span>{totalPrice.toFixed(2)} ₹</span>
               </p>
             </div>
             <div className={styles.buttons_wrapper}>

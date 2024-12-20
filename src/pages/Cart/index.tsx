@@ -65,7 +65,7 @@ const Cart = () => {
                           </div>
                           <div className={styles.size}>Size: 36</div>
                           <div className={styles.price}>
-                            $ {item.product.price}
+                           ₹ {item.product.price}
                           </div>
                           <div className={styles.return}>
                             <div className={styles.iconContainer}>

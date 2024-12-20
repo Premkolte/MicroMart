@@ -89,7 +89,7 @@ const Product = () => {
             </div>
             <div className={styles.priceContainer}>
               <div className={styles.title}>Price:</div>
-              <div className={styles.price}>${product.price}</div>
+              <div className={styles.price}>₹{product.price}</div>
             </div>
             <div className={styles.addToCartContainer}>
               <div

@@ -1,7 +1,11 @@
+import hero1 from '../data/images/hero-1.webp';
+
+
 export const heroImages = [
   {
     id: 1,
-    path: "https://ik.imagekit.io/zf3aj3qr3x/tr:w-600/hero-1.jpg?updatedAt=1706911112844 400,https://ik.imagekit.io/zf3aj3qr3x/tr:w-800/hero-1.jpg?updatedAt=1706911112844 800w,https://ik.imagekit.io/zf3aj3qr3x/tr:w-1200/hero-1.jpg?updatedAt=1706911112844 1200w",
+    // path: "hero1 400,https://ik.imagekit.io/zf3aj3qr3x/tr:w-800/hero-1.jpg?updatedAt=1706911112844 800w,https://ik.imagekit.io/zf3aj3qr3x/tr:w-1200/hero-1.jpg?updatedAt=1706911112844 1200w",
+    path : hero1,
     link: "/catalog/Men",
   },
   {
