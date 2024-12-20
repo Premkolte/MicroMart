@@ -6,10 +6,6 @@ import { useAppDispatch, useAppSelector } from "../../app/hooks";
 import Spinner from "../../components/components/Spinner";
 import { CgDisplayFlex } from "react-icons/cg";
 
-
-const handleClick = () => {
-  window.open('https://excalidraw.com/', '_blank', 'noopener,noreferrer ');
-};
 const ProRecc = () => {
   window.open('https://recommendationapp-9xhvzouxewkvk4vcatztkx.streamlit.app/', '_blank', 'noopener,noreferrer ');
 };
@@ -76,7 +72,7 @@ const LoginPage = () => {
                   {/* <strong>{user?.email}</strong> */}
                 </h2>
                 <h3>
-                  
+
 
                   Location: Pune, Maharashtra 
                   {/* <strong>{user?.address.city}</strong> */}
