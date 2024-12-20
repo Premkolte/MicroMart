@@ -4,7 +4,6 @@ import { FormEvent, useEffect } from "react";
 import { getUser, login, logout } from "../../features/auth/authSlice";
 import { useAppDispatch, useAppSelector } from "../../app/hooks";
 import Spinner from "../../components/components/Spinner";
-import { CgDisplayFlex } from "react-icons/cg";
 
 const ProRecc = () => {
   window.open('https://recommendationapp-9xhvzouxewkvk4vcatztkx.streamlit.app/', '_blank', 'noopener,noreferrer ');
