@@ -73,7 +73,7 @@ const LoginPage = () => {
                 <h3>
 
 
-                  Location: Pune, Maharashtra 
+                  Location: Bhopal, India.
                   {/* <strong>{user?.address.city}</strong> */}
                 </h3>
                 <h3>
