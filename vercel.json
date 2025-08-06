@@ -1,0 +1,12 @@
+{
+  "buildCommand": "cd MERN-Website && npm run build",
+  "outputDirectory": "MERN-Website/dist",
+  "installCommand": "cd MERN-Website && npm install",
+  "routes": [
+    {
+      "src": "/[^.]+",
+      "dest": "/",
+      "status": 200
+    }
+  ]
+}
